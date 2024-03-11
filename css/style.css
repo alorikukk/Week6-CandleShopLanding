@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {   
+    font-family: "Madimi One", sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    padding: 2rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.intro-image, .packaging-image, .tutorials-image{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.intro-text, .packaging-text{
+    min-height: 250px;/*
+    padding: 0 15rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.intro-text div, .packaging-text div {
+    width: 80%;
+    max-width: 90rem;
+}
+
+.intro-text__textbox h3, .packaging_text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.intro-image {
+    background-position: top;
+    background-image: url('../img/2021.jpg');
+}
+
+.intro-image__text a {
+    background-color: #9a8a7974;
+    border: 2px solid #232224a3;
+    color: #434533c6;
+}
+
+.intro-text {
+    background-color: #c8cacc;
+    min-height: 300px;
+    margin-top: -5rem;
+    padding-top: 3rem;
+    clip-path: polygon(0 0, 50% 5rem, 100% 0, 100% 100%, 0 100%);
+}
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url("../img/packaging.jpg");
+    background-position: center;
+    height: 450px;
+}
+
+.packaging-image__text a {
+    background-color: #211f2255;
+    border: 2px solid #232224a3;
+    color: #ffffffb6;
+
+}
+
+.packaging-text {
+    background-color: #c5b8a9;
+}
+.tutorials-image {
+    background-attachment: fixed;
+    background-position: top;
+    background-image: url('../img/tutorial.jpg');
+}
+.tutorials-image__text a {
+    background-color: #32321687;
+    border: 2px solid #20200eb2;
+    color: #ffffffb6;
+
+}
+
+.footer {
+    height: 250px;
+    background-color: #5f4536;
+    color: #dbdbdb;
+    font-size: 2rem;
+    padding-top: 2rem;
+
+}
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+.footer ul li a {
+    color: #dbdbdb;
+    text-decoration: none;
+}
+
+.footer ul li {
+    transition: all 0.5s ease-in-out;
+}
+
+.footer ul li:hover {
+    transform: scale(1.2);
+}
